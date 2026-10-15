@@ -142,4 +142,4 @@ See `LICENSE`.
 ## Contact
 
 Anchal Soni, Indian Institute of Management Bangalore
-Soudeep Deb (corresponding author), soudeep@iimb.ac.in
+Soudeep Deb (corresponding author)
