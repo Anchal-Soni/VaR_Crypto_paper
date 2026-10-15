@@ -14,32 +14,31 @@ The paper detects common structural breaks in a five-cryptocurrency price panel 
 ├── data/
 │   └── Cryptocurrency6.csv       # daily closing prices, 01/12/2016 - 04/12/2021
 ├── R/
-│   ├── 00_setup.R                # paths, packages, helpers (run this first)
-│   ├── 01_change_points.R
-│   ├── 02_descriptive_stats_subsamples.R
-│   ├── 03a_garch_BTC.R ... 03e_garch_ETC.R
-│   ├── 03f_var_series_1pct.R
-│   ├── 04_garch_mape_rmse.R
-│   ├── 05_garch_without_regressors.R
-│   ├── 06_gas_models.R
-│   ├── 07_qps_garch.R
-│   ├── 08_qps_garch_without_regressors.R
-│   ├── 09_qps_gas.R
-│   ├── 10_actual_error_garch_gas.R
-│   ├── 11_tables_garch.R
-│   ├── 12_tables_gas.R
-│   ├── 13_tables_qps_ae.R
-│   ├── 14_figures_var_garch.R
-│   ├── 15_figures_var_gas.R
-│   ├── 16_transfer_entropy.R
-│   └── functions/
-│       ├── strucbreak.R          # t-SNE + CUSUM change-point function CW.Anchal.multi()
-│       ├── transfer_entropy.R    # (group) transfer entropy functions
-│       ├── cp_pca.R              # PCA benchmark (first principal component)
-│       ├── cp_pca_squared.R      # PCA benchmark (squared PC1)
-│       └── cp_pca_abs.R          # PCA benchmark (absolute PC1)
-└── manuscript/
-    └── Revised_Manuscript.pdf
+   ├── 00_setup.R                # paths, packages, helpers (run this first)
+   ├── 01_change_points.R
+   ├── 02_descriptive_stats_subsamples.R
+   ├── 03a_garch_BTC.R ... 03e_garch_ETC.R
+   ├── 03f_var_series_1pct.R
+   ├── 04_garch_mape_rmse.R
+   ├── 05_garch_without_regressors.R
+   ├── 06_gas_models.R
+   ├── 07_qps_garch.R
+   ├── 08_qps_garch_without_regressors.R
+   ├── 09_qps_gas.R
+   ├── 10_actual_error_garch_gas.R
+   ├── 11_tables_garch.R
+   ├── 12_tables_gas.R
+   ├── 13_tables_qps_ae.R
+   ├── 14_figures_var_garch.R
+   ├── 15_figures_var_gas.R
+   ├── 16_transfer_entropy.R
+   └── functions/
+       ├── strucbreak.R          # t-SNE + CUSUM change-point function CW.Anchal.multi()
+       ├── transfer_entropy.R    # (group) transfer entropy functions
+       ├── cp_pca.R              # PCA benchmark (first principal component)
+       ├── cp_pca_squared.R      # PCA benchmark (squared PC1)
+       └── cp_pca_abs.R          # PCA benchmark (absolute PC1)
+
 ```
 
 ## Data
@@ -143,4 +142,4 @@ See `LICENSE`.
 ## Contact
 
 Anchal Soni, Indian Institute of Management Bangalore
-Soudeep Deb (corresponding author), soudeep@iimb.ac.in
+Soudeep Deb (corresponding author)
